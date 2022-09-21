@@ -39,7 +39,7 @@ st.set_page_config(
 	layout="centered"
 )
 
-st.markdown("Demo data for uploading- [link](https://drive.google.com/file/d/1EWg1_JATa6UAWhoS-yXWa1NxMc3rN4va/view?usp=sharing)")
+
 
 @st.cache
 def download_button(object_to_download, download_filename, button_text, pickle_it=False):
@@ -320,6 +320,8 @@ st.title("Market Research Clustering Application")
 
 st.write("""Upload research participant dataset, and the MR clustering application will help compute
 an optimal clustering solution and identify important variables from the dataset.""")
+st.markdown("Demo data for uploading- [link](https://drive.google.com/file/d/1EWg1_JATa6UAWhoS-yXWa1NxMc3rN4va/view?usp=sharing)")
+
 data_file = st.file_uploader("Upload CSV",type=['csv'])
 
 # Once a file is uploaded, everything starts
