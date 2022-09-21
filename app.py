@@ -315,7 +315,7 @@ def cluster_solver(df):
 #########################################################################################
 
 st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
-st.title("Market Research Clustering Application")
+st.title("Market Research Clustering App")
 
 st.write("""Upload research participant dataset, and the MR clustering application will help compute
 an optimal clustering solution and identify important variables from the dataset.""")
