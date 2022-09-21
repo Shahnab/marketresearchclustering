@@ -33,11 +33,15 @@ import uuid
 import re
 import time
 
+st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
+
 st.set_page_config(
 	page_title="Market Research Clustering Application",
 	page_icon=":bulb:",
 	layout="centered"
 )
+
+st.markdown("Demo data for uploading- [link](https://drive.google.com/file/d/1EWg1_JATa6UAWhoS-yXWa1NxMc3rN4va/view?usp=sharing)")
 
 @st.cache
 def download_button(object_to_download, download_filename, button_text, pickle_it=False):
