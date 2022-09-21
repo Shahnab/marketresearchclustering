@@ -33,8 +33,6 @@ import uuid
 import re
 import time
 
-st.image('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Dentsu-logo_black.svg/2560px-Dentsu-logo_black.svg.png', width=250)
-
 st.set_page_config(
 	page_title="Market Research Clustering Application",
 	page_icon=":bulb:",
