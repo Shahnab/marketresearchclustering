@@ -35,7 +35,6 @@ import time
 
 st.set_page_config(
 	page_title="Market Research Clustering Application",
-	page_icon=":bulb:",
 	layout="centered"
 )
 
